@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisper - Anonymous Social Media Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Whisper</h1>
+    </header>
+    <main>
+        <section id="registration">
+            <h2>Register</h2>
+            <form id="registration-form">
+                <label for="display-name">Display Name:</label>
+                <input type="text" id="display-name" name="display-name" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section id="login">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-display-name">Display Name:</label>
+                <input type="text" id="login-display-name" name="login-display-name" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="timeline">
+            <h2>Timeline</h2>
+            <div id="posts">
+                <!-- Posts will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Aro Software Group</p>
+    </footer>
+</body>
+</html>
