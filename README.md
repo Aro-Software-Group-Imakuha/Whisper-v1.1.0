@@ -1,2 +1,1 @@
-# Whisper-v1.0.1-1
-A repository for Whisper project
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
